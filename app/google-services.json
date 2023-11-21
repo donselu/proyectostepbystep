@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "162439691456",
+    "project_id": "stepbystep-b2124",
+    "storage_bucket": "stepbystep-b2124.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162439691456:android:2c5e623e427ca24ad74125",
+        "android_client_info": {
+          "package_name": "com.joseluisleongata.proyectostepbystep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYGbOkv32Yt-p_0bSQhQ1Nzb5hMwLpT-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

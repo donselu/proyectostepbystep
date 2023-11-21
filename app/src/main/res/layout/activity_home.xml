@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F0F0"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+
+
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Cerrar Sesión" />
+
+        <Button
+            android:id="@+id/signUpButton1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#FF5722"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="Horarios" />
+
+        <Button
+            android:id="@+id/signUpButton2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#FF5722"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="EJERCICIOS" />
+
+        <Button
+            android:id="@+id/signUpButton3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#FF5722"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="UBICACION" />
+
+        <Button
+            android:id="@+id/signUpButton4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="0dp"
+            android:backgroundTint="#FF5722"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="TARIFAS" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
