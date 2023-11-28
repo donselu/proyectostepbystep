@@ -1,58 +1,65 @@
 package com.joseluisleongata.proyectostepbystep
-import androidx.appcompat.app.AppCompatActivity
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import android.widget.Button
+import android.widget.Toast
 
 class EjerciciosActivity : AppCompatActivity() {
 
-        override fun onCreate(savedInstanceState: Bundle?) {
-                super.onCreate(savedInstanceState)
-                setContentView(R.layout.activity_ejercicios)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_ejercicios)
 
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView = findViewById<ImageView>(R.id.ejerciciosImageView)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView.setImageResource(R.drawable.press_militar)
-
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView2 = findViewById<ImageView>(R.id.ejerciciosImageView2)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView2.setImageResource(R.drawable.curl_biceps)
-
-
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView3 = findViewById<ImageView>(R.id.ejerciciosImageView3)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView3.setImageResource(R.drawable.triceps_polea)
-
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView4 = findViewById<ImageView>(R.id.ejerciciosImageView4)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView4.setImageResource(R.drawable.press_banca)
-
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView5 = findViewById<ImageView>(R.id.ejerciciosImageView5)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView5.setImageResource(R.drawable.jalon_espalda)
-
-                // Encuentra el ImageView en el diseño
-                val ejerciciosImageView6 = findViewById<ImageView>(R.id.ejerciciosImageView6)
-
-                // Carga la imagen de un recurso en el ImageView
-                ejerciciosImageView6.setImageResource(R.drawable.abdominales)
-
+        // Botón "entremiento de Pecho"
+        val btnentrenamientoPecho: Button = findViewById(R.id.entrenamientoPecho)
+        btnentrenamientoPecho.setOnClickListener {
+            val intent = Intent(this, PechoActivity::class.java)
+            startActivity(intent)
         }
+
+
+        // Botón "entremiento de Espalda"
+        val btnentrenamientoEspalda: Button = findViewById(R.id.entrenamientoEspalda)
+        btnentrenamientoEspalda.setOnClickListener {
+            val intent = Intent(this, EspaldaActivity::class.java)
+            startActivity(intent)
         }
 
 
 
 
+        // Botón "entremiento de Biceps/Triceps"
+        val btnentrenamientoBicepsTriceps: Button = findViewById(R.id.entrenamientoBiceps)
+        btnentrenamientoBicepsTriceps.setOnClickListener {
+            val intent = Intent(this, PechoActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        // Botón "entremiento de Piernas"
+        val btnentrenamientoPiernas: Button = findViewById(R.id.entrenamientoPiernas)
+        btnentrenamientoPiernas.setOnClickListener {
+            val intent = Intent(this, PechoActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        // Botón "entremiento de Abs de Hierro"
+        val btnentrenamientoAbs: Button = findViewById(R.id.entrenamientoAbs)
+        btnentrenamientoAbs.setOnClickListener {
+            val intent = Intent(this, PechoActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        // Botón "entremiento de Gluteos"
+        val btnentrenamientoGluteos: Button = findViewById(R.id.entrenamientoGluteo)
+        btnentrenamientoGluteos.setOnClickListener {
+            val intent = Intent(this, PechoActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
@@ -64,5 +71,7 @@ class EjerciciosActivity : AppCompatActivity() {
 
 
 
+    }
+}
 
 

@@ -33,6 +33,21 @@
         <activity
             android:name=".UbicacionActivity"
             android:exported="true" />
+        <activity
+            android:name=".PechoActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".PiernasActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".EspaldaActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".BicepsActivity"
+            android:exported="true"/>
+
 
         <activity
             android:name=".AuthActivity"

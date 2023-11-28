@@ -55,7 +55,7 @@
             android:backgroundTint="#FF5722"
             android:drawableTint="#F44336"
             android:foregroundTint="#F44336"
-            android:text="EJERCICIOS" />
+            android:text="ENTRENAMIENTO" />
 
         <Button
             android:id="@+id/signUpButton3"

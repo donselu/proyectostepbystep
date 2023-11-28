@@ -1,4 +1,7 @@
 package com.joseluisleongata.proyectostepbystep
 
-class TarifaActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class TarifaActivity : AppCompatActivity() {
+
 }

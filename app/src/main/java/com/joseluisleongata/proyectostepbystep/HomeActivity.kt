@@ -3,7 +3,6 @@ package com.joseluisleongata.proyectostepbystep
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -36,12 +35,11 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, TarifaActivity::class.java)
             startActivity(intent)
         }
-
-        // Botón "EJERCICIOS"
-        val btnEjercicios: Button = findViewById(R.id.signUpButton2)
-        btnEjercicios.setOnClickListener {
-            val ejerciciosIntent = Intent(this, EjerciciosActivity::class.java)
-            startActivity(ejerciciosIntent)
+        val signUpButton2 = findViewById<Button>(R.id.signUpButton2)
+        signUpButton2.setOnClickListener {
+            // Abre la nueva actividad (EjerciciosActivity)
+            val intent = Intent(this, EjerciciosActivity::class.java)
+            startActivity(intent)
         }
 
         // Inicializa el botón y configura su clic para cerrar sesión
