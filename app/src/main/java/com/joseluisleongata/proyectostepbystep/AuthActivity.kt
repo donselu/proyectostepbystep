@@ -29,7 +29,7 @@ class AuthActivity : AppCompatActivity() {
         emailEditText = findViewById(R.id.emailEditText)
         passwordEditText = findViewById(R.id.passwordEditText)
         signUpButton = findViewById(R.id.signUpButton)
-        logInButton = findViewById(R.id.loginInButton)  // Agregar inicialización de logInButton
+        logInButton = findViewById(R.id.loginInButton)
 
         setup()
     }

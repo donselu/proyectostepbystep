@@ -109,7 +109,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/pimagen5"
+        android:id="@+id/bimagen5"
         android:layout_width="159dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
@@ -131,7 +131,7 @@
         android:layout_marginTop="16dp"
         android:text="Biceps con barra"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pimagen5" />
+        app:layout_constraintTop_toBottomOf="@+id/bimagen5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

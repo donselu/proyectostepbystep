@@ -5,6 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondopantalla1" />
+
     <Button
         android:id="@+id/entrenamientoPecho"
         android:layout_width="262dp"
@@ -12,12 +26,12 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
+        android:text="ENTRENAMIENTO DE PECHO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="ENTRENAMIENTO DE PECHO" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/entrenamientoEspalda"
@@ -26,13 +40,13 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
 
+        android:text="ENTRENAMIENTO DE ESPALDA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="ENTRENAMIENTO DE ESPALDA" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/entrenamientoBiceps"
@@ -41,13 +55,13 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="236dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
 
+        android:text="BICEPS/TRICEPS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="BICEPS/TRICEPS" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/entrenamientoPiernas"
@@ -56,13 +70,13 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="340dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
 
+        android:text="ENTRENAMIENTO DE PIERNAS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="ENTRENAMIENTO DE PIERNAS" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/entrenamientoAbs"
@@ -71,13 +85,13 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="448dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
 
+        android:text="ABS DE HIERRO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="ABS DE HIERRO" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/entrenamientoGluteo"
@@ -86,11 +100,11 @@
         android:layout_marginStart="69dp"
         android:layout_marginTop="552dp"
         android:layout_marginEnd="69dp"
-        android:backgroundTint="#FF5722"
+        android:backgroundTint="#ABFFFFFF"
+        android:text="ENTRENAMIENTO DE GLUTEOS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="ENTRENAMIENTO DE GLUTEOS" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

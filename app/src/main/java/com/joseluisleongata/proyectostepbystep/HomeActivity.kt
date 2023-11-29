@@ -35,9 +35,9 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, TarifaActivity::class.java)
             startActivity(intent)
         }
+
         val signUpButton2 = findViewById<Button>(R.id.signUpButton2)
         signUpButton2.setOnClickListener {
-            // Abre la nueva actividad (EjerciciosActivity)
             val intent = Intent(this, EjerciciosActivity::class.java)
             startActivity(intent)
         }

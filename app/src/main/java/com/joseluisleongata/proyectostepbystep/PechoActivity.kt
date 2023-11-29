@@ -15,33 +15,24 @@ class PechoActivity : AppCompatActivity(){
 
             // Encuentra el ImageView en el diseño
             val ejerciciosImageView = findViewById<ImageView>(R.id.ejerciciosImageView)
-
             // Carga la imagen de un recurso en el ImageView
             ejerciciosImageView.setImageResource(R.drawable.press_mancuerna)
 
-            // Encuentra el ImageView en el diseño
-            val ejerciciosImageView2 = findViewById<ImageView>(R.id.ejerciciosImageView2)
 
-            // Carga la imagen de un recurso en el ImageView
+            val ejerciciosImageView2 = findViewById<ImageView>(R.id.ejerciciosImageView2)
             ejerciciosImageView2.setImageResource(R.drawable.apertura)
 
 
-            // Encuentra el ImageView en el diseño
-            val ejerciciosImageView3 = findViewById<ImageView>(R.id.ejerciciosImageView3)
 
-            // Carga la imagen de un recurso en el ImageView
+            val ejerciciosImageView3 = findViewById<ImageView>(R.id.ejerciciosImageView3)
             ejerciciosImageView3.setImageResource(R.drawable.press_tumbado)
 
-            // Encuentra el ImageView en el diseño
-            val ejerciciosImageView4 = findViewById<ImageView>(R.id.ejerciciosImageView4)
 
-            // Carga la imagen de un recurso en el ImageView
+            val ejerciciosImageView4 = findViewById<ImageView>(R.id.ejerciciosImageView4)
             ejerciciosImageView4.setImageResource(R.drawable.press_banca)
 
-            // Encuentra el ImageView en el diseño
-            val ejerciciosImageView5 = findViewById<ImageView>(R.id.ejerciciosImageView5)
 
-            // Carga la imagen de un recurso en el ImageView
+            val ejerciciosImageView5 = findViewById<ImageView>(R.id.ejerciciosImageView5)
             ejerciciosImageView5.setImageResource(R.drawable.press_enbancoinclinado)
 
     }

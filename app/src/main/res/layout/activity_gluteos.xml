@@ -4,44 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <ImageView
-        android:id="@+id/Piernasimagen1"
+        android:id="@+id/Gimagen1"
         android:layout_width="159dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:scaleType="centerInside"
-        android:src="@drawable/cuadriceps"
+        android:src="@drawable/zancada"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="284dp"
-        android:text=" Cuadriceps "
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="276dp"
+        android:text=" Zancada "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
 
 
-        android:id="@+id/Piernasimagen2"
+        android:id="@+id/Gimagen2"
         android:layout_width="159dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:scaleType="centerInside"
-        android:src="@drawable/abducciondecadera"
+        android:src="@drawable/elastico"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,24 +49,24 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="64dp"
-        android:text="Abuccion"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="52dp"
+        android:text="Abduccion con banda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/Piernasimagen3"
+        android:id="@+id/Gimagen3"
         android:layout_width="159dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="8dp"
         android:scaleType="centerInside"
-        android:src="@drawable/zancada"
+        android:src="@drawable/eleveacion1piernapuentedegluteo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -75,26 +75,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="49dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="316dp"
-        android:text="Zancada"
+        android:text="Elevacion a una pierna"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Piernasimagen3" />
+        app:layout_constraintTop_toBottomOf="@+id/Gimagen3" />
 
     <ImageView
-        android:id="@+id/Piernasimagen4"
+        android:id="@+id/Gimagen4"
         android:layout_width="159dp"
         android:layout_height="144dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="8dp"
         android:scaleType="centerInside"
-        android:src="@drawable/curlfemoral"
+        android:src="@drawable/puentedegluteo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,35 +102,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="84dp"
-        android:text="Curl femoral"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="72dp"
+        android:text=" Puente de gluteo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/Piernasimagen5"
-        android:layout_width="159dp"
-        android:layout_height="144dp"
-        android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="424dp"
-        android:layout_marginEnd="8dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/extensiondepiernas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:text="Extension de piernas"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Piernasimagen5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -48,6 +48,13 @@
             android:name=".BicepsActivity"
             android:exported="true"/>
 
+        <activity
+            android:name=".GluteosActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AbsActivity"
+            android:exported="true"/>
 
         <activity
             android:name=".AuthActivity"

@@ -7,13 +7,15 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".UbicacionActivity">
 
+
+
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="match_parent"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="126dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

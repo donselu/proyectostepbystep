@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
-import android.widget.Toast
 
 class EjerciciosActivity : AppCompatActivity() {
 
@@ -12,66 +11,59 @@ class EjerciciosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ejercicios)
 
-        // Botón "entremiento de Pecho"
-        val btnentrenamientoPecho: Button = findViewById(R.id.entrenamientoPecho)
-        btnentrenamientoPecho.setOnClickListener {
+        // Botón "entrenamiento de Pecho"
+        val btnEntrenamientoPecho: Button = findViewById(R.id.entrenamientoPecho)
+        btnEntrenamientoPecho.setOnClickListener {
             val intent = Intent(this, PechoActivity::class.java)
             startActivity(intent)
         }
 
-
-        // Botón "entremiento de Espalda"
-        val btnentrenamientoEspalda: Button = findViewById(R.id.entrenamientoEspalda)
-        btnentrenamientoEspalda.setOnClickListener {
+        // Botón "entrenamiento de Espalda"
+        val btnEntrenamientoEspalda: Button = findViewById(R.id.entrenamientoEspalda)
+        btnEntrenamientoEspalda.setOnClickListener {
             val intent = Intent(this, EspaldaActivity::class.java)
             startActivity(intent)
         }
 
-
-
-
-        // Botón "entremiento de Biceps/Triceps"
-        val btnentrenamientoBicepsTriceps: Button = findViewById(R.id.entrenamientoBiceps)
-        btnentrenamientoBicepsTriceps.setOnClickListener {
-            val intent = Intent(this, PechoActivity::class.java)
+        // Botón "entrenamiento de Biceps/Triceps"
+        val btnEntrenamientoBicepsTriceps: Button = findViewById(R.id.entrenamientoBiceps)
+        btnEntrenamientoBicepsTriceps.setOnClickListener {
+            val intent = Intent(this, BicepsActivity::class.java)
             startActivity(intent)
         }
 
-
-        // Botón "entremiento de Piernas"
-        val btnentrenamientoPiernas: Button = findViewById(R.id.entrenamientoPiernas)
-        btnentrenamientoPiernas.setOnClickListener {
-            val intent = Intent(this, PechoActivity::class.java)
+        // Botón "entrenamiento de Piernas"
+        val btnEntrenamientoPiernas: Button = findViewById(R.id.entrenamientoPiernas)
+        btnEntrenamientoPiernas.setOnClickListener {
+            val intent = Intent(this, PiernasActivity::class.java)
             startActivity(intent)
         }
 
-
-        // Botón "entremiento de Abs de Hierro"
-        val btnentrenamientoAbs: Button = findViewById(R.id.entrenamientoAbs)
-        btnentrenamientoAbs.setOnClickListener {
-            val intent = Intent(this, PechoActivity::class.java)
+        // Botón "entrenamiento de Abs de Hierro"
+        val btnEntrenamientoAbs: Button = findViewById(R.id.entrenamientoAbs)
+        btnEntrenamientoAbs.setOnClickListener {
+            val intent = Intent(this, AbsActivity::class.java)
             startActivity(intent)
         }
 
-
-        // Botón "entremiento de Gluteos"
-        val btnentrenamientoGluteos: Button = findViewById(R.id.entrenamientoGluteo)
-        btnentrenamientoGluteos.setOnClickListener {
-            val intent = Intent(this, PechoActivity::class.java)
+        // Botón "entrenamiento de Gluteos"
+        val btnEntrenamientoGluteos: Button = findViewById(R.id.entrenamientoGluteo)
+        btnEntrenamientoGluteos.setOnClickListener {
+            val intent = Intent(this, GluteosActivity::class.java)
             startActivity(intent)
         }
-
-
-
-
-
-
-
-
-
-
-
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
