@@ -55,10 +55,39 @@
         <activity
             android:name=".AbsActivity"
             android:exported="true"/>
+        <activity
+            android:name=".ClasesActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".AlimentacionActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Comida1Activity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Comida2Activity"
+            android:exported="true"/>
+        <activity
+            android:name=".Comida3Activity"
+            android:exported="true"/>
+        <activity
+            android:name="PagarActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Comida4Activity"
+            android:exported="true"/>
 
         <activity
             android:name=".AuthActivity"
             android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
 
 
             <intent-filter>

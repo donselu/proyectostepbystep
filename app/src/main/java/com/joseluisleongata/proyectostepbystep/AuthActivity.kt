@@ -13,6 +13,8 @@ import android.content.Context
 import com.google.firebase.database.FirebaseDatabase
 
 
+
+
 class AuthActivity : AppCompatActivity() {
 
     private lateinit var emailEditText: EditText
@@ -82,6 +84,7 @@ class AuthActivity : AppCompatActivity() {
                     }
             } else {
                 showAlert("Por favor, ingresa un correo electrónico y una contraseña.")
+
 
             }
         }

@@ -1,21 +1,12 @@
 package com.joseluisleongata.proyectostepbystep
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.bottomsheet.BottomSheetDialog
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.ValueEventListener
-import com.google.firebase.database.GenericTypeIndicator
+
 
 
 class HorariosActivity : AppCompatActivity() {
@@ -46,7 +37,7 @@ class HorariosActivity : AppCompatActivity() {
         }
 
         // Configurar clics en los botones de apuntarse
-        findViewById<Button>(R.id.horario1Button).setOnClickListener {
+        findViewById<Button>(R.id.horario2Button).setOnClickListener {
             toggleConfirmation("Horario1", horario1Set, tickHorario1)
         }
 

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttoncomida1"
+        android:layout_width="370dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="593dp"
+        android:background="@drawable/merluza1"
+        android:contentDescription="Botón para seleccionar merluza con verduras"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewcomida1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="546dp"
+        android:text="Merluza con verduras"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncomida1" />
+
+    <Button
+        android:id="@+id/buttoncomida2"
+        android:layout_width="373dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="417dp"
+        android:background="@drawable/salmon"
+        android:contentDescription="Botón para seleccionar salmon con verduras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomida1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewcomida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="375dp"
+        android:text="Salmón con verduras"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncomida2" />
+
+    <Button
+        android:id="@+id/buttoncomida3"
+        android:layout_width="373dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="235dp"
+        android:background="@drawable/pollo1"
+        android:contentDescription="Botón para seleccionar pollo con verduras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/textViewcomida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="208dp"
+        android:text="Pollo con arroz"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncomida3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttoncomida4"
+        android:layout_width="370dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/pavo"
+        android:contentDescription="Botón para seleccionar Pavo con verduras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewcomida3" />
+
+    <TextView
+        android:id="@+id/textView4comida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="46dp"
+        android:text="Menu de definicion"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncomida4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,17 +41,27 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, EjerciciosActivity::class.java)
             startActivity(intent)
         }
+        val signUpButton7 = findViewById<Button>(R.id.signUpButton7)
+        signUpButton7.setOnClickListener {
+            val intent = Intent(this, ClasesActivity::class.java)
+            startActivity(intent)
+        }
 
-        // Inicializa el botón y configura su clic para cerrar sesión
+        val signUpButton8 = findViewById<Button>(R.id.signUpButton8)
+        signUpButton8.setOnClickListener {
+            val intent = Intent(this, AlimentacionActivity::class.java)
+            startActivity(intent)
+        }
+
         logoutButton = findViewById(R.id.logoutButton)
         logoutButton.setOnClickListener {
-            // Cerrar sesión en Firebase
             FirebaseAuth.getInstance().signOut()
 
-            // Redirige a la pantalla de autenticación
+
+
             val intent = Intent(this, AuthActivity::class.java)
             startActivity(intent)
-            finish()  // Cierra esta actividad para evitar volver atrás con el botón de retroceso
+            finish()
         }
     }
 }

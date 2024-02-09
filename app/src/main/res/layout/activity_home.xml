@@ -8,11 +8,6 @@
     tools:context=".HomeActivity">
 
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
     <ImageView
         android:id="@+id/backgroundImageView"
         android:layout_width="match_parent"
@@ -66,12 +61,24 @@
             android:layout_width="349dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="210dp"
+            android:layout_marginTop="380dp"
             android:layout_marginEnd="26dp"
             android:backgroundTint="#ABFFFFFF"
             android:drawableTint="#F44336"
             android:foregroundTint="#F44336"
             android:text="UBICACION" />
+
+        <Button
+            android:id="@+id/signUpButton8"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="465dp"
+            android:layout_marginEnd="22dp"
+            android:backgroundTint="#ABFFFFFF"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="ALIMENTACION" />
 
         <Button
             android:id="@+id/signUpButton4"
@@ -86,18 +93,29 @@
             android:text="PRECIOS" />
 
 
-            <Button
-                android:id="@+id/logoutButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="140dp"
-                android:layout_marginTop="693dp"
-                android:layout_marginEnd="142dp"
-                android:text="Cerrar Sesión"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/signUpButton7"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="26dp"
+            android:backgroundTint="#ABFFFFFF"
+            android:drawableTint="#F44336"
+            android:foregroundTint="#F44336"
+            android:text="CLASES" />
 
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="693dp"
+            android:layout_marginEnd="142dp"
+            android:text="Cerrar Sesión"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </RelativeLayout>

@@ -21,11 +21,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-79dp"
-        tools:layout_editor_absoluteY="16dp">
-    </LinearLayout>
-
-
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="365dp"></LinearLayout>
 
 
     <Button
@@ -39,45 +36,51 @@
         android:text="9:00-14:00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
-        app:layout_constraintVertical_bias="0.606" />
+        app:layout_constraintVertical_bias="0.493" />
 
     <Button
         android:id="@+id/horario2Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
+        android:layout_marginBottom="760dp"
         android:text=" 16:00-22:00"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horario1Button" />
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
 
     <TextView
         android:id="@+id/tickHorario1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="48dp"
         android:text="✔️ 0"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="@+id/horario1Button"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="@+id/horario1Button"
-        app:layout_constraintTop_toBottomOf="@+id/horario1Button" />
+        app:layout_constraintBottom_toTopOf="@+id/horario1Button"
+        app:layout_constraintEnd_toEndOf="@+id/horario2Button"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/horario2Button"
+        app:layout_constraintTop_toBottomOf="@+id/horario2Button" />
 
     <TextView
         android:id="@+id/tickHorario2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginBottom="41dp"
         android:text="✔️ 0"
         android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/calendarView"
         app:layout_constraintEnd_toEndOf="@+id/horario2Button"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="@+id/horario2Button"
         app:layout_constraintTop_toBottomOf="@+id/horario2Button" />
 
