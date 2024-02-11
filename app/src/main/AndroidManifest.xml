@@ -75,6 +75,9 @@
             android:name="PagarActivity"
             android:exported="true"/>
         <activity
+            android:name="PuntosActivity"
+            android:exported="true"/>
+        <activity
             android:name=".Comida4Activity"
             android:exported="true"/>
 

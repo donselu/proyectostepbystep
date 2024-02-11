@@ -93,7 +93,7 @@ class AuthActivity : AppCompatActivity() {
 
     private fun showAlert(message: String) {
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("ERROR")
+        builder.setTitle("Bienvenido")
         builder.setMessage(message)
         builder.setPositiveButton("Aceptar", null)
         val dialog = builder.create()
